@@ -1,15 +1,13 @@
-# hwc12
-
-select price from products ORDER BY price DESC;
+# Andrew
 
 ```
-+-------+
-| price |
-+-------+
-|  1.25 |
-|  1.25 |
-|  1.23 |
-|  0.49 |
-|  0.48 |
-+-------+
+select quantity, COUNT(*) from products GROUP BY quantity;
++----------+----------+
+| quantity | COUNT(*) |
++----------+----------+
+|     5000 |        1 |
+|     8000 |        2 |
+|     2000 |        1 |
+|    10000 |        1 |
++----------+----------+
 ```
