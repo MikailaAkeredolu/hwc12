@@ -2,6 +2,7 @@
 
 select price from products ORDER BY price DESC;
 
+```
 +-------+
 | price |
 +-------+
@@ -11,3 +12,4 @@ select price from products ORDER BY price DESC;
 |  0.49 |
 |  0.48 |
 +-------+
+```
